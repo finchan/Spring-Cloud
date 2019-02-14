@@ -1,0 +1,39 @@
+#---
+#Standalone Mode
+#server:
+#  port: 8760
+#eureka:
+#  instance:
+#    hostname: localhost # This works for Cloud 1.X and Cloud 2.X
+##    hostname: ${spring.cloud.client.ip-address} #This works for Cloud 2.X
+##    hostname: ${spring.cloud.client.ipAddress} #This works for Cloud 1.X
+#  client:
+#    registerWithEureka: false
+#    fetchRegistry: false
+#    serviceUrl:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+---
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
+---
+spring:
+  profiles: peer1
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: peer1
+    appname: eureka-cluster
+---
+spring:
+  profiles: peer2
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: peer2
+    appname: eureka-cluster
