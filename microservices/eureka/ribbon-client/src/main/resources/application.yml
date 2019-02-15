@@ -1,0 +1,10 @@
+stores:
+  ribbon:
+    listOfServers: example.com, bing.com
+
+ribbon:
+  eureka:
+    enabled: false #forbid Eureka Client retrieving registering list
+
+server:
+  port: 8766
