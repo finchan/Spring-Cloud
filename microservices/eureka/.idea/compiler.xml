@@ -10,7 +10,10 @@
         <module name="eureka-feign-client" />
         <module name="eureka-ribbon" />
         <module name="eureka-server" />
+        <module name="feign-hystrix" />
         <module name="ribbon-client" />
+        <module name="ribbon-hystrix" />
+        <module name="ribbon-hystrix-dashboard" />
       </profile>
     </annotationProcessing>
   </component>

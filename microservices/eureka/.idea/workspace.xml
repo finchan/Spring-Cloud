@@ -2,13 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aea50c9-734c-41df-8fcf-448ebfc6f1b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/client/EurekaClientFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/client/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/service/HiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-hystrix/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-hystrix/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-hystrix/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/EurekaFeignClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/EurekaClientFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/hystrix/HiHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/controller/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/service/HiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/test/java/com/forezip/eurekafeignclient/EurekaFeignClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/RibbonHystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/config/RibbonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/controller/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/service/RibbonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/test/java/com/forezp/ribbonhystrix/RibbonHystrixApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/config/RibbonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/controller/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/service/RibbonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-feign-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign-client/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +40,9 @@
     <ignored path="$PROJECT_DIR$/eureka-ribbon/target/" />
     <ignored path="$PROJECT_DIR$/ribbon-client/target/" />
     <ignored path="$PROJECT_DIR$/eureka-feign-client/target/" />
+    <ignored path="$PROJECT_DIR$/ribbon-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/feign-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/ribbon-hystrix-dashboard/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,83 +96,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ribbon-client/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-feign-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaFeignClientApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/EurekaFeignClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaClientFeign.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/client/EurekaClientFeign.java">
+      <file leaf-file-name="RibbonHystrixApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/RibbonHystrixApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HiService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/service/HiService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeignConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/client/config/FeignConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ribbon-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="66">
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -181,12 +144,28 @@
         <option value="$PROJECT_DIR$/ribbon-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ribbon-client/src/main/java/com/forezp/ribbonclient/controller/RibbonController.java" />
         <option value="$PROJECT_DIR$/ribbon-client/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-feign-client/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-feign-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/EurekaFeignClientApplication.java" />
         <option value="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/client/config/FeignConfig.java" />
         <option value="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/client/EurekaClientFeign.java" />
         <option value="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/service/HiService.java" />
+        <option value="$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/controller/HiController.java" />
+        <option value="$PROJECT_DIR$/eureka-feign-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-hystrix/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/config/RibbonConfig.java" />
+        <option value="$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/service/RibbonService.java" />
+        <option value="$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/controller/HiController.java" />
+        <option value="$PROJECT_DIR$/feign-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/EurekaClientFeign.java" />
+        <option value="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/hystrix/HiHystrix.java" />
+        <option value="$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/RibbonHystrixApplication.java" />
+        <option value="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ribbon-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/feign-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/RibbonHystrixApplication.java" />
+        <option value="$PROJECT_DIR$/ribbon-hystrix-dashboard/pom.xml" />
       </list>
     </option>
   </component>
@@ -208,11 +187,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ribbon-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ribbon-hystrix-dashboard" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ribbon-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ribbon-hystrix-dashboard" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -264,69 +243,42 @@
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekafeignclient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbonhystrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -334,7 +286,8 @@
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-client" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -357,19 +310,22 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="FeignRibbonClientAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.feign.ribbon.FeignRibbonClientAutoConfiguration&#10;PingTask&#9;PSI&#9;JAVA://com.netflix.loadbalancer.BaseLoadBalancer.PingTask&#10;Pinger&#9;PSI&#9;JAVA://com.netflix.loadbalancer.BaseLoadBalancer.Pinger" />
+    <property name="SearchEverywhereHistoryKey" value="application.yml&#9;FILE&#9;file://E:/Practice/Spring-Cloud/microservices/eureka/eureka-feign-client/src/main/resources/application.yml&#10;FeignRIbb&#9;FILE&#9;jar://C:/Users/j/.m2/repository/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/ribbon/FeignRibbonClientAutoConfiguration.java&#10;FeignRibbonClientAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.feign.ribbon.FeignRibbonClientAutoConfiguration&#10;PingTask&#9;PSI&#9;JAVA://com.netflix.loadbalancer.BaseLoadBalancer.PingTask&#10;Pinger&#9;PSI&#9;JAVA://com.netflix.loadbalancer.BaseLoadBalancer.Pinger" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550073801214" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-ribbon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ribbon-hystrix-dashboard/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3257143" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.YAML" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Practice\Spring-Cloud\microservices\eureka" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Practice\eureka\eureka-client\src\main\resources" />
     </key>
@@ -392,7 +348,7 @@
     </option>
     <option name="contentProportion" value="0.21406491" />
   </component>
-  <component name="RunManager" selected="JAR Application.ribbon-client">
+  <component name="RunManager" selected="JAR Application.ribbon-hystrix-dashboard-8070">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method>
@@ -424,32 +380,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eureka-client-port1" type="JarApplication" factoryName="JAR Application" temporary="true">
+    <configuration name="eureka-client-8763" type="JarApplication" factoryName="JAR Application" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/eureka-client/target/eureka-client-0.0.1-SNAPSHOT.jar" />
       <option name="PROGRAM_PARAMETERS" value="--server.port=8763" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="eureka-client-port2" type="JarApplication" factoryName="JAR Application">
+    <configuration name="eureka-client-8764" type="JarApplication" factoryName="JAR Application">
       <option name="JAR_PATH" value="$PROJECT_DIR$/eureka-client/target/eureka-client-0.0.1-SNAPSHOT.jar" />
       <option name="PROGRAM_PARAMETERS" value="--server.port=8764" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="eureka-ribbon" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/eureka-ribbon/target/eureka-ribbon-0.0.1-SNAPSHOT.jar" />
+    <configuration name="eureka-feign-client-8767" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/eureka-feign-client/target/eureka-feign-client-0.0.1-SNAPSHOT.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="eureka-server-peer1" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=peer1" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-    </configuration>
-    <configuration name="eureka-server-peer2" type="JarApplication" factoryName="JAR Application">
+    <configuration name="eureka-server-peer2-8762" type="JarApplication" factoryName="JAR Application">
       <option name="JAR_PATH" value="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar" />
       <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=peer2" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="ribbon-client" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/ribbon-client/target/ribbon-client-0.0.1-SNAPSHOT.jar" />
+    <configuration name="feign-hystrix-8769" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/feign-hystrix/target/feign-hystrix-0.0.1-SNAPSHOT.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ribbon-hystrix-8768" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/ribbon-hystrix/target/ribbon-hystrix-0.0.1-SNAPSHOT.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ribbon-hystrix-dashboard-8070" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/ribbon-hystrix-dashboard/target/ribbon-hystrix-dashboard-0.0.1-SNAPSHOT.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="RibbonClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -482,20 +441,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JAR Application.eureka-server-peer2" />
-      <item itemvalue="JAR Application.eureka-client-port2" />
+      <item itemvalue="JAR Application.eureka-server-peer2-8762" />
+      <item itemvalue="JAR Application.eureka-client-8764" />
       <item itemvalue="Spring Boot.RibbonClientApplication" />
-      <item itemvalue="JAR Application.eureka-client-port1" />
-      <item itemvalue="JAR Application.eureka-server-peer1" />
-      <item itemvalue="JAR Application.eureka-ribbon" />
-      <item itemvalue="JAR Application.ribbon-client" />
+      <item itemvalue="JAR Application.eureka-client-8763" />
+      <item itemvalue="JAR Application.eureka-feign-client-8767" />
+      <item itemvalue="JAR Application.ribbon-hystrix-8768" />
+      <item itemvalue="JAR Application.feign-hystrix-8769" />
+      <item itemvalue="JAR Application.ribbon-hystrix-dashboard-8070" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.ribbon-client" />
-        <item itemvalue="JAR Application.eureka-ribbon" />
-        <item itemvalue="JAR Application.eureka-client-port1" />
-        <item itemvalue="JAR Application.eureka-server-peer1" />
+        <item itemvalue="JAR Application.ribbon-hystrix-dashboard-8070" />
+        <item itemvalue="JAR Application.eureka-client-8763" />
+        <item itemvalue="JAR Application.feign-hystrix-8769" />
+        <item itemvalue="JAR Application.ribbon-hystrix-8768" />
+        <item itemvalue="JAR Application.eureka-feign-client-8767" />
       </list>
     </recent_temporary>
   </component>
@@ -517,7 +478,7 @@
       <workItem from="1550151491910" duration="356000" />
       <workItem from="1550192521840" duration="9855000" />
       <workItem from="1550451292383" duration="5310000" />
-      <workItem from="1550541261193" duration="2620000" />
+      <workItem from="1550541261193" duration="12654000" />
     </task>
     <task id="LOCAL-00001" summary="Ribbon Client">
       <created>1550222653809</created>
@@ -526,11 +487,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550222653809</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feign Client">
+      <created>1550544309274</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550544309274</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51922000" />
+    <option name="totallyTimeSpent" value="61956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,11 +511,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.290469" side_tool="true" weight="0.552459" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.25340393" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.25340393" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
@@ -563,10 +530,10 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.3729373" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.709531" weight="0.48349836" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.709531" visible="true" weight="0.08099174" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.57389164" visible="true" weight="0.27836612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57389164" visible="true" weight="0.27836612" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -579,41 +546,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.709531" weight="0.48349836" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.290469" side_tool="true" weight="0.552459" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32838285" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.57389164" visible="true" weight="0.27836612" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.32838285" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.25340393" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49394855" weight="0.27540985" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" sideWeight="0.42506143" side_tool="true" visible="true" weight="0.27836612" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39933994" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.3729373" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -623,7 +555,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ribbon Client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ribbon Client" />
+    <MESSAGE value="Feign Client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feign Client" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,140 +575,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar!/org/springframework/boot/builder/SpringApplicationBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE-sources.jar!/org/springframework/boot/builder/SpringApplicationBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="33" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/forezp/eurekaclient/EurekaClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/forezp/eureka/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/forezp/eurekaclient/web/HiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon/src/main/java/com/forezp/eurekaribbon/controller/RestTestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon/src/main/java/com/forezp/eurekaribbon/EurekaRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-client/src/main/java/com/forezp/ribbonclient/RibbonClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon/src/main/java/com/forezp/eurekaribbon/config/RibbonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon/src/main/java/com/forezp/eurekaribbon/service/RibbonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon/src/main/java/com/forezp/eurekaribbon/controller/RibbonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="22" selection-start-line="11" selection-start-column="5" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon/src/main/java/com/forezp/eurekaribbon/controller/RibbonLoadBalanceClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/SpringClientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/1.2.2.RELEASE/spring-cloud-context-1.2.2.RELEASE.jar!/org/springframework/cloud/context/named/NamedContextFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -889,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/ribbon/FeignRibbonClientAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="117" column="44" lean-forward="true" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ribbon-client/src/main/java/com/forezp/ribbonclient/controller/RibbonController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -948,24 +740,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ribbon-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-feign-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -978,15 +756,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/EurekaFeignClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="266">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/ribbon/FeignRibbonClientAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/client/config/FeignConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="152">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/service/HiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -996,20 +791,173 @@
     <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/client/EurekaClientFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/service/HiService.java">
+    <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/controller/HiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        <state relative-caret-position="247">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/service/RibbonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/config/RibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/controller/HiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/hystrix/HiHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/EurekaClientFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/ribbon-hystrix-dashboard.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/config/RibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/RibbonHystrixApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-249">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/ribbon-hystrix.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/RibbonHystrixApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1019,6 +967,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>eureka-ribbon:Web exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1065,7 +1014,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>eureka-ribbon</last-edited>
+          <last-edited>ribbon-hystrix-dashboard</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

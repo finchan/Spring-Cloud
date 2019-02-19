@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: ribbon-hystrix
+server:
+    port: 8769
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://peer1:8761/eureka/

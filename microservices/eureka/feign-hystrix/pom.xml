@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.forezip</groupId>
-    <artifactId>eureka-feign-client</artifactId>
+    <artifactId>feign-hystrix</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>eureka-feign-client</name>
+    <name>feign-hystrix</name>
     <parent>
         <groupId>com.forezp</groupId>
         <artifactId>eureka</artifactId>
