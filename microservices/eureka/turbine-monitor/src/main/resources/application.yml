@@ -1,0 +1,13 @@
+spring:
+  application.name: service-turbine
+server:
+  port: 8772
+turbine:
+  aggregator:
+    clusterConfig: default
+  appConfig: RIBBON-HYSTRIX-DASHBOARD, FEIGN-HYSTRIX-DASHBOARD
+  clusterNameExpression: new String("default")
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

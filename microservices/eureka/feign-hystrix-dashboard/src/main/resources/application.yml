@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: feign-hystrix-dashboard
+server:
+  port: 8771
+feign:
+  hystrix:
+    enabled: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

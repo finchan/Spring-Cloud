@@ -2,36 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aea50c9-734c-41df-8fcf-448ebfc6f1b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/feign-hystrix/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-hystrix/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-hystrix/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-hystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/EurekaFeignClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/EurekaClientFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/hystrix/HiHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/controller/HiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/service/HiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-hystrix/src/test/java/com/forezip/eurekafeignclient/EurekaFeignClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/RibbonHystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/config/RibbonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/controller/HiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/service/RibbonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/test/java/com/forezp/ribbonhystrix/RibbonHystrixApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/config/RibbonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/controller/HiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/service/RibbonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-feign-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-feign-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ribbon-hystrix/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon-hystrix/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,8 +20,9 @@
     <ignored path="$PROJECT_DIR$/ribbon-hystrix/target/" />
     <ignored path="$PROJECT_DIR$/feign-hystrix/target/" />
     <ignored path="$PROJECT_DIR$/ribbon-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/feign-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/turbine-monitor/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,23 +71,67 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1731729782">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1-SNAPSHOT" value="2" />
+          <entry key="java" value="10" />
+          <entry key="pom" value="3" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="11" />
+          <entry key="yml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="10" />
+          <entry key="Properties" value="1" />
+          <entry key="UML" value="2" />
+          <entry key="XML" value="14" />
+          <entry key="YAML" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="43" />
+          <entry key="xml" value="103" />
+          <entry key="yml" value="267" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="43" />
+          <entry key="XML" value="103" />
+          <entry key="YAML" value="267" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RibbonHystrixApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/RibbonHystrixApplication.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/turbine-monitor/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="545">
+              <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/turbine-monitor/src/main/java/com/forezp/turbinemonitor/TurbineMonitorApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            <state relative-caret-position="100">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,6 +145,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jackson-core</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -161,11 +188,17 @@
         <option value="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/EurekaClientFeign.java" />
         <option value="$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/client/hystrix/HiHystrix.java" />
         <option value="$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/RibbonHystrixApplication.java" />
-        <option value="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ribbon-hystrix/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/feign-hystrix/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/RibbonHystrixApplication.java" />
         <option value="$PROJECT_DIR$/ribbon-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/feign-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-hystrix-dashboard/src/main/java/com/forezip/eurekafeignclient/EurekaFeignClientApplication.java" />
+        <option value="$PROJECT_DIR$/feign-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/turbine-monitor/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/turbine-monitor/src/main/java/com/forezp/turbinemonitor/TurbineMonitorApplication.java" />
+        <option value="$PROJECT_DIR$/turbine-monitor/pom.xml" />
       </list>
     </option>
   </component>
@@ -187,23 +220,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ribbon-hystrix-dashboard" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="turbine-monitor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ribbon-hystrix-dashboard" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="turbine-monitor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="507" />
-    <option name="y" value="89" />
+    <option name="x" value="749" />
+    <option name="y" value="285" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -232,7 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,58 +272,78 @@
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-monitor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-monitor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-monitor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbonhystrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="forezp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="forezp" type="462c0819:PsiDirectoryNode" />
+              <item name="turbinemonitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-monitor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,8 +362,8 @@
     <property name="SearchEverywhereHistoryKey" value="application.yml&#9;FILE&#9;file://E:/Practice/Spring-Cloud/microservices/eureka/eureka-feign-client/src/main/resources/application.yml&#10;FeignRIbb&#9;FILE&#9;jar://C:/Users/j/.m2/repository/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/ribbon/FeignRibbonClientAutoConfiguration.java&#10;FeignRibbonClientAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.feign.ribbon.FeignRibbonClientAutoConfiguration&#10;PingTask&#9;PSI&#9;JAVA://com.netflix.loadbalancer.BaseLoadBalancer.PingTask&#10;Pinger&#9;PSI&#9;JAVA://com.netflix.loadbalancer.BaseLoadBalancer.Pinger" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550073801214" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ribbon-hystrix-dashboard/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550588947404" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/turbine-monitor/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -323,11 +372,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.YAML" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Practice\Spring-Cloud\microservices\eureka" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Practice\eureka\eureka-client\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Practice\Spring-Cloud\microservices\eureka" />
+      <recent name="E:\Practice\Spring-Cloud\microservices\eureka" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,115 +398,158 @@
     </option>
     <option name="contentProportion" value="0.21406491" />
   </component>
-  <component name="RunManager" selected="JAR Application.ribbon-hystrix-dashboard-8070">
+  <component name="RunManager" selected="JAR Application.ribbon-hystrix-dashboard-8770">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eureka-client-8763" type="JarApplication" factoryName="JAR Application" temporary="true">
+    <configuration name="eureka-client-8763" type="JarApplication" factoryName="JAR Application">
       <option name="JAR_PATH" value="$PROJECT_DIR$/eureka-client/target/eureka-client-0.0.1-SNAPSHOT.jar" />
       <option name="PROGRAM_PARAMETERS" value="--server.port=8763" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
     </configuration>
     <configuration name="eureka-client-8764" type="JarApplication" factoryName="JAR Application">
       <option name="JAR_PATH" value="$PROJECT_DIR$/eureka-client/target/eureka-client-0.0.1-SNAPSHOT.jar" />
       <option name="PROGRAM_PARAMETERS" value="--server.port=8764" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
     </configuration>
-    <configuration name="eureka-feign-client-8767" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/eureka-feign-client/target/eureka-feign-client-0.0.1-SNAPSHOT.jar" />
+    <configuration name="eureka-ribbon-8765" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/eureka-ribbon/target/eureka-ribbon-0.0.1-SNAPSHOT.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="eureka-server-peer1-8761" type="JarApplication" factoryName="JAR Application">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=peer1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
     </configuration>
     <configuration name="eureka-server-peer2-8762" type="JarApplication" factoryName="JAR Application">
       <option name="JAR_PATH" value="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar" />
       <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=peer2" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
     </configuration>
     <configuration name="feign-hystrix-8769" type="JarApplication" factoryName="JAR Application" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/feign-hystrix/target/feign-hystrix-0.0.1-SNAPSHOT.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
     </configuration>
-    <configuration name="ribbon-hystrix-8768" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/ribbon-hystrix/target/ribbon-hystrix-0.0.1-SNAPSHOT.jar" />
+    <configuration name="feign-hystrix-dashboard-8771" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/feign-hystrix-dashboard/target/feign-hystrix-dashboard-0.0.1-SNAPSHOT.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
     </configuration>
-    <configuration name="ribbon-hystrix-dashboard-8070" type="JarApplication" factoryName="JAR Application" temporary="true">
+    <configuration name="ribbon-client-8766" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/ribbon-client/target/ribbon-client-0.0.1-SNAPSHOT.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ribbon-hystrix-dashboard-8770" type="JarApplication" factoryName="JAR Application" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/ribbon-hystrix-dashboard/target/ribbon-hystrix-dashboard-0.0.1-SNAPSHOT.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaFeignClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="feign-hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezip.eurekafeignclient.EurekaFeignClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.eurekaribbon.EurekaRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="RibbonClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ribbon-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ribbonclient.RibbonClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RibbonHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ribbon-hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ribbonhystrix.RibbonHystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurbineMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="turbine-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.turbinemonitor.TurbineMonitorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JAR Application.eureka-server-peer2-8762" />
+      <item itemvalue="JAR Application.eureka-server-peer1-8761" />
       <item itemvalue="JAR Application.eureka-client-8764" />
-      <item itemvalue="Spring Boot.RibbonClientApplication" />
       <item itemvalue="JAR Application.eureka-client-8763" />
-      <item itemvalue="JAR Application.eureka-feign-client-8767" />
-      <item itemvalue="JAR Application.ribbon-hystrix-8768" />
+      <item itemvalue="Spring Boot.RibbonClientApplication" />
+      <item itemvalue="Spring Boot.EurekaFeignClientApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.RibbonHystrixApplication" />
+      <item itemvalue="Spring Boot.EurekaRibbonApplication" />
       <item itemvalue="JAR Application.feign-hystrix-8769" />
-      <item itemvalue="JAR Application.ribbon-hystrix-dashboard-8070" />
+      <item itemvalue="JAR Application.ribbon-hystrix-dashboard-8770" />
+      <item itemvalue="JAR Application.feign-hystrix-dashboard-8771" />
+      <item itemvalue="JAR Application.eureka-ribbon-8765" />
+      <item itemvalue="JAR Application.ribbon-client-8766" />
+      <item itemvalue="Spring Boot.TurbineMonitorApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.ribbon-hystrix-dashboard-8070" />
-        <item itemvalue="JAR Application.eureka-client-8763" />
+        <item itemvalue="JAR Application.ribbon-hystrix-dashboard-8770" />
+        <item itemvalue="JAR Application.feign-hystrix-dashboard-8771" />
+        <item itemvalue="JAR Application.ribbon-client-8766" />
+        <item itemvalue="JAR Application.eureka-ribbon-8765" />
         <item itemvalue="JAR Application.feign-hystrix-8769" />
-        <item itemvalue="JAR Application.ribbon-hystrix-8768" />
-        <item itemvalue="JAR Application.eureka-feign-client-8767" />
       </list>
     </recent_temporary>
   </component>
@@ -479,6 +572,7 @@
       <workItem from="1550192521840" duration="9855000" />
       <workItem from="1550451292383" duration="5310000" />
       <workItem from="1550541261193" duration="12654000" />
+      <workItem from="1550581245774" duration="7990000" />
     </task>
     <task id="LOCAL-00001" summary="Ribbon Client">
       <created>1550222653809</created>
@@ -498,7 +592,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61956000" />
+    <option name="totallyTimeSpent" value="69946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,39 +606,39 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.290469" side_tool="true" weight="0.552459" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.25340393" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57389164" visible="true" weight="0.21482602" />
       <window_info id="Structure" order="1" sideWeight="0.42506143" side_tool="true" weight="0.27836612" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39933994" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32838285" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.3729373" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.709531" visible="true" weight="0.08099174" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.709531" weight="0.30706075" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39933994" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57389164" visible="true" weight="0.27836612" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.290469" side_tool="true" weight="0.552459" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49394855" weight="0.27422002" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" weight="0.32838285" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49394855" weight="0.27540985" />
-      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.34795764" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +661,6 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -575,112 +668,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/1.2.2.RELEASE/spring-cloud-context-1.2.2.RELEASE.jar!/org/springframework/cloud/context/named/NamedContextFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="123" column="17" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="593" column="17" selection-start-line="593" selection-start-column="17" selection-end-line="593" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="1091" column="20" selection-start-line="1091" selection-start-column="20" selection-end-line="1091" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/1.2.2.RELEASE/spring-cloud-context-1.2.2.RELEASE-sources.jar!/org/springframework/cloud/context/named/NamedContextFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="123" column="32" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/ServiceInstanceChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.2.RELEASE/spring-cloud-commons-1.2.2.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2147">
-          <caret line="139" column="19" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2.jar!/com/netflix/loadbalancer/ILoadBalancer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="44" column="3" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/IPing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/AbstractLoadBalancerPing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding>
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/appinfo/InstanceInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="945" column="26" selection-start-line="945" selection-start-column="26" selection-end-line="945" selection-end-column="26" />
-          <folding>
-            <element signature="e#34966#34967#0" expanded="true" />
-            <element signature="e#34995#34996#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-eureka/2.2.2/ribbon-eureka-2.2.2.jar!/com/netflix/niws/loadbalancer/NIWSDiscoveryPing.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="32" column="55" selection-start-line="32" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-eureka/2.2.2/ribbon-eureka-2.2.2.jar!/com/netflix/niws/loadbalancer/DiscoveryEnabledServer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -692,65 +679,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="901" column="46" selection-start-line="901" selection-start-column="46" selection-end-line="901" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-eureka/2.2.2/ribbon-eureka-2.2.2-sources.jar!/com/netflix/niws/loadbalancer/NIWSDiscoveryPing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-eureka/2.2.2/ribbon-eureka-2.2.2-sources.jar!/com/netflix/niws/loadbalancer/DiscoveryEnabledServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/IPingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/BaseLoadBalancer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-eureka/2.2.2/ribbon-eureka-2.2.2-sources.jar!/com/netflix/niws/loadbalancer/NIWSDiscoveryPing.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-eureka/2.2.2/ribbon-eureka-2.2.2-sources.jar!/com/netflix/niws/loadbalancer/DiscoveryEnabledServer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/IPingStrategy.java" />
     <entry file="file://$PROJECT_DIR$/ribbon-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -761,13 +701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/ribbon/FeignRibbonClientAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/ribbon/FeignRibbonClientAutoConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/java/com/forezip/eurekafeignclient/client/config/FeignConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -782,9 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,9 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,9 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,20 +740,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-ribbon/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/service/RibbonService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -848,9 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,9 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,12 +801,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/ribbon-hystrix-dashboard.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/config/RibbonConfig.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/ribbon-hystrix-dashboard.iml" />
     <entry file="file://$PROJECT_DIR$/ribbon-hystrix/src/main/java/com/forezp/ribbonhystrix/RibbonHystrixApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -905,59 +809,312 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/ribbon-hystrix.iml" />
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feign-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="300">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="125">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/ribbon-hystrix.iml">
+    <entry file="file://$PROJECT_DIR$/eureka-ribbon/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="80">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/ribbon-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-hystrix/src/main/java/com/forezip/eurekafeignclient/EurekaFeignClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/RibbonHystrixApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="140">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/java/com/forezp/ribbonhystrix/config/RibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-hystrix-dashboard/src/main/java/com/forezip/eurekafeignclient/client/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-hystrix-dashboard/src/main/java/com/forezip/eurekafeignclient/client/EurekaClientFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-hystrix-dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-actuator/1.5.2.RELEASE/spring-boot-starter-actuator-1.5.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-hystrix-dashboard/src/main/java/com/forezip/eurekafeignclient/EurekaFeignClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbine-monitor/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-hystrix/1.3.1.RELEASE/spring-cloud-starter-hystrix-1.3.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.forezp:turbine-monitor:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.forezp:turbine-monitor:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.forezp:turbine-monitor:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot:jar:1.5.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.24</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.24</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.2.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.24</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.2.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.7/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.7/com.fasterxml.jackson.core:jackson-core:jar:2.8.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.2.RELEASE/org.springframework:spring-context:jar:4.3.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.2.RELEASE/org.springframework:spring-context:jar:4.3.7.RELEASE/org.springframework:spring-aop:jar:4.3.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.2.RELEASE/org.springframework:spring-context:jar:4.3.7.RELEASE/org.springframework:spring-beans:jar:4.3.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.2.RELEASE/org.springframework:spring-context:jar:4.3.7.RELEASE/org.springframework:spring-expression:jar:4.3.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.24</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/org.assertj:assertj-core:jar:2.6.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/org.springframework:spring-core:jar:4.3.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.2.RELEASE/org.springframework:spring-test:jar:4.3.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.2.2.RELEASE/org.springframework.security:spring-security-crypto:jar:4.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.2.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55/org.bouncycastle:bcprov-jdk15on:jar:1.55</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.hibernate:hibernate-validator:jar:5.3.4.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.hibernate:hibernate-validator:jar:5.3.4.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.hibernate:hibernate-validator:jar:5.3.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.hibernate:hibernate-validator:jar:5.3.4.Final/com.fasterxml:classmate:jar:1.3.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework:spring-web:jar:4.3.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.2.RELEASE/org.springframework:spring-webmvc:jar:4.3.7.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.9.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.fasterxml.jackson.core:jackson-core:jar:2.8.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.1.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.1.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.1.RELEASE/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.hystrix:hystrix-core:jar:1.5.12</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.hystrix:hystrix-core:jar:1.5.12/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-codec:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-handler:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-common:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-buffer:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-transport:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.1.RELEASE/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.1.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-turbine:jar:1.3.1.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-turbine:jar:1.3.1.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-turbine:jar:1.3.1.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-turbine:jar:1.3.1.RELEASE/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/com.netflix.turbine:turbine-core:jar:1.0.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/com.netflix.turbine:turbine-core:jar:1.0.0/com.netflix.servo:servo-core:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/com.netflix.turbine:turbine-core:jar:1.0.0/com.netflix.servo:servo-core:jar:0.10.1/com.netflix.servo:servo-internal:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/com.netflix.turbine:turbine-core:jar:1.0.0/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/com.netflix.turbine:turbine-core:jar:1.0.0/commons-io:commons-io:jar:2.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/com.netflix.turbine:turbine-core:jar:1.0.0/com.netflix.archaius:archaius-core:jar:0.7.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/com.netflix.turbine:turbine-core:jar:1.0.0/com.netflix.archaius:archaius-core:jar:0.7.4/com.google.code.findbugs:jsr305:jar:3.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-turbine:jar:1.3.1.RELEASE/com.netflix.turbine:turbine-core:jar:1.0.0/org.codehaus.jackson:jackson-core-asl:jar:1.9.2</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="1768.0436293432808" y="1205.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbine-monitor/src/main/java/com/forezp/turbinemonitor/TurbineMonitorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ribbon-hystrix-dashboard/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="540">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbine-monitor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1014,7 +1171,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ribbon-hystrix-dashboard</last-edited>
+          <last-edited>turbine-monitor</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
