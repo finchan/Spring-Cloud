@@ -28,6 +28,7 @@
         <option value="$PROJECT_DIR$/ribbon-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/feign-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/turbine-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
       </list>
     </option>
   </component>
