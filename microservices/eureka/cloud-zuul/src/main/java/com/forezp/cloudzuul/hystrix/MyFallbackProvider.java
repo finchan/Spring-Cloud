@@ -16,8 +16,9 @@ public class MyFallbackProvider implements ZuulFallbackProvider {
     @Override
     public String getRoute() {
         //Hystrix eureka-client application
-        //If you want to hystrix all applications - return "*";
         return "eureka-client";
+        //If you want to hystrix all applications - return "*";
+//        return "*";
     }
 
     @Override

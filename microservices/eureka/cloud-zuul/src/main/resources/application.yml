@@ -13,6 +13,7 @@ zuul:
       path: /hiapi/**
       serviceId: eureka-client
       #      url: http://localhost:8762  #if you use URL instead of serviceId, Zuul will visit this exact URL directly. This is not recommended.
+      #      serviceId: hiapi-v1
     ribbonapi:
       path: /ribbonapi/**
       serviceId: eureka-ribbon-client
@@ -20,3 +21,9 @@ zuul:
       path: /feignapi/**
       serviceId: eureka-feign-client
 #zuul.prefix: /v1  #with this prefix, all url should be placed this prefix - localhost:8773/v1/hiapi/hi?name=tatze
+#ribbon:
+#  eureka:
+#    enabled: false
+#hiapi-v1:
+#  ribbon:
+#    listOfServers: http://localhost:8762,http://localhost:8763
