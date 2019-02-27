@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      uri: http://localhost:8773
+      fail-fast: true
+  profiles:
+    active: dev
+#{spring.application.name}-{spring.profiles.active} = config-client-dev.yml
