@@ -1,0 +1,15 @@
+server:
+  port: 8775
+# Remote Git Configuration
+spring:
+  cloud:
+    config:
+      server:
+        git:
+#          uri: https://github.com/finchan/Spring-Cloud/tree/master/microservices/eureka
+          uri: https://github.com/finchan/Spring-Cloud
+          searchPaths: respo
+          username:
+          password:
+          label: master
+  application: config-server
