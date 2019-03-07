@@ -29,10 +29,10 @@
         <option value="$PROJECT_DIR$/feign-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/turbine-monitor/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/config-client/pom.xml" />
         <option value="$PROJECT_DIR$/config-server-git-remote/pom.xml" />
-        <option value="$PROJECT_DIR$/config-client-git-remote/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client-github/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>
