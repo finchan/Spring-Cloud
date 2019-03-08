@@ -9,9 +9,12 @@
         <module name="cloud-zuul" />
         <module name="config-client" />
         <module name="config-client-github" />
+        <module name="config-eureka-server" />
         <module name="config-server" />
         <module name="config-server-git-remote" />
         <module name="eureka-client" />
+        <module name="eureka-config-client" />
+        <module name="eureka-config-server" />
         <module name="eureka-feign-client" />
         <module name="eureka-ribbon" />
         <module name="eureka-server" />

@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-client
+    #name and profiles are very important, it depends of how this client locates config server clients configuration!
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        enabled: true
+        serviceId: eureka-config-server
+  profiles:
+    active: dev
+#server:
+#  port: 8779
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8777/eureka/
