@@ -5,11 +5,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig
+          uri: https://github.com/finchan/Spring-Cloud
           searchPaths: respo
+          skipSslValidation: true
           username:
           password:
-      label: master
+    label: master
   application:
     name: eureka-config-server
 eureka:

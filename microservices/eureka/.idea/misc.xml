@@ -36,6 +36,7 @@
         <option value="$PROJECT_DIR$/config-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-config-client-bus-rabbitmq/pom.xml" />
       </list>
     </option>
   </component>
