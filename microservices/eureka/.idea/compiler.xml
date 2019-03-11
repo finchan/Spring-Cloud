@@ -22,10 +22,13 @@
         <module name="eureka-server" />
         <module name="feign-hystrix" />
         <module name="feign-hystrix-dashboard" />
+        <module name="gateway-service" />
         <module name="ribbon-client" />
         <module name="ribbon-hystrix" />
         <module name="ribbon-hystrix-dashboard" />
+        <module name="sleuth-zipkin-server" />
         <module name="turbine-monitor" />
+        <module name="user-service" />
       </profile>
     </annotationProcessing>
   </component>
