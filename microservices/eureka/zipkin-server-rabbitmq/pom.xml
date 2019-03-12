@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.forezp</groupId>
-    <artifactId>sleuth</artifactId>
+    <artifactId>zipkin-server-rabbitmq</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sleuth-zipkin-server</name>
+    <name>zipkin-server-rabbitmq</name>
     <parent>
         <groupId>com.forezp</groupId>
         <artifactId>eureka</artifactId>
@@ -18,11 +18,15 @@
         </dependency>
         <dependency>
             <groupId>io.zipkin.java</groupId>
-            <artifactId>zipkin-server</artifactId>
+            <artifactId>zipkin-autoconfigure-ui</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.zipkin.java</groupId>
-            <artifactId>zipkin-autoconfigure-ui</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-sleuth-zipkin-stream</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -1,0 +1,16 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8777/eureka/
+server:
+  port: 8787
+spring:
+  application:
+    name: zipkin-server-rabbitmq
+  sleuth:
+    enabled: false
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest

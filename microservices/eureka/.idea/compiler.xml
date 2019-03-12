@@ -29,6 +29,7 @@
         <module name="sleuth-zipkin-server" />
         <module name="turbine-monitor" />
         <module name="user-service" />
+        <module name="zipkin-server-rabbitmq" />
       </profile>
     </annotationProcessing>
   </component>
