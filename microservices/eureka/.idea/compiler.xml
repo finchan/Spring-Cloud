@@ -33,6 +33,8 @@
         <module name="user-service-zipkin-rabbitmq" />
         <module name="zipkin-client-rabbitmq" />
         <module name="zipkin-server-rabbitmq" />
+        <module name="zipkin-server-rabbitmq-elastic" />
+        <module name="zipkin-server-rabbitmq-mysql" />
       </profile>
     </annotationProcessing>
   </component>
