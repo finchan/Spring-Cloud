@@ -23,6 +23,7 @@
         <module name="feign-hystrix" />
         <module name="feign-hystrix-dashboard" />
         <module name="gateway-service" />
+        <module name="http-zipkin-server-mysql" />
         <module name="ribbon-client" />
         <module name="ribbon-hystrix" />
         <module name="ribbon-hystrix-dashboard" />
