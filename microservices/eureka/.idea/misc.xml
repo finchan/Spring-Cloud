@@ -41,6 +41,8 @@
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-server-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-client-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/user-service-zipkin-rabbitmq/pom.xml" />
       </list>
     </option>
   </component>
