@@ -1,5 +1,6 @@
 package com.forezp.sleuth;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -19,7 +20,7 @@ public class SleuthZipkinApplication {
     }
 
     @Bean
-    public MySQLStorage mySQLStorage(DataSource datasource) {
+    public MySQLStorage mySQLStorage(@Qualifier("dataSource") DataSource datasource) {
         return MySQLStorage.builder().datasource(datasource).executor(Runnable::run).build();
     }
 
