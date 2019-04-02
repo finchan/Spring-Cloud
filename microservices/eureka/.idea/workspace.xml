@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aea50c9-734c-41df-8fcf-448ebfc6f1b0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/boot-admin-eureka-client/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-admin-server/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http-zipkin-server-mysql/src/main/java/com/forezp/sleuth/SleuthZipkinApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/http-zipkin-server-mysql/src/main/java/com/forezp/sleuth/SleuthZipkinApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,6 +41,10 @@
     <ignored path="$PROJECT_DIR$/http-zipkin-server-mysql/target/" />
     <ignored path="$PROJECT_DIR$/zipkin-server-rabbitmq-mysql/target/" />
     <ignored path="$PROJECT_DIR$/zipkin-server-rabbitmq-elastic/target/" />
+    <ignored path="$PROJECT_DIR$/bootadmineurekaserver/target/" />
+    <ignored path="$PROJECT_DIR$/boot-admin-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/boot-admin-eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/boot-admin-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +111,16 @@
     <session id="-1731729782">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.140" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.70" value="2" />
           <entry key="project.open.time.80" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -128,12 +138,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="92" />
+          <entry key="JAVA" value="100" />
           <entry key="Properties" value="3" />
           <entry key="SQL" value="2" />
           <entry key="UML" value="10" />
-          <entry key="XML" value="97" />
-          <entry key="YAML" value="73" />
+          <entry key="XML" value="112" />
+          <entry key="YAML" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -146,10 +156,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="692" />
-          <entry key="PLAIN_TEXT" value="66" />
-          <entry key="XML" value="221" />
-          <entry key="YAML" value="933" />
+          <entry key="JAVA" value="752" />
+          <entry key="PLAIN_TEXT" value="71" />
+          <entry key="XML" value="252" />
+          <entry key="YAML" value="1484" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages">
@@ -161,98 +171,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq-mysql/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="39" lean-forward="true" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq-mysql/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="9" column="9" lean-forward="true" selection-end-line="23" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zipkin-client-rabbitmq/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="23" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq-elastic/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="44" column="19" lean-forward="true" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zipkin-client-rabbitmq/src/main/java/com/forezp/zipkinclientrabbitmq/ZipkinClientRabbitmqApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq-elastic/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/boot-admin-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="249">
+              <caret line="24" column="64" lean-forward="true" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq-elastic/src/main/java/com/forezp/zipkinserverrabbitmq/ZipkinServerRabbitmqElasticApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-eureka-server/src/main/java/com/forezp/configeurekaserver/ConfigEurekaServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service-zipkin-rabbitmq/src/main/java/com/forezp/userservicezipkinrabbitmq/UserServiceZipkinRabbitmqApplication.java">
+        <entry file="file://$PROJECT_DIR$/boot-admin-server/src/main/java/com/example/bootadminserver/BootAdminServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq-mysql/src/main/java/com/forezp/zipkinserverrabbitmq/ZipkinServerRabbitmqMySQLApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="16" selection-end-column="1" />
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -286,17 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config-eureka-server/src/main/java/com/forezp/configeurekaserver/ConfigEurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/config-eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-config-server/src/main/java/com/forezp/eurekaconfigserver/EurekaConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/config-eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-config-client/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-config-client/src/main/java/com/forezp/eurekaconfigclient/EurekaConfigClientApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-config-server/src/main/resources/shared/config-client-dev.yml" />
         <option value="$PROJECT_DIR$/eureka-config-client-bus-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-config-client/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/eureka-config-client-bus-rabbitmq/src/main/resources/bootstrap.yml" />
@@ -337,6 +262,17 @@
         <option value="$PROJECT_DIR$/zipkin-server-rabbitmq-elastic/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/zipkin-server-rabbitmq-elastic/pom.xml" />
         <option value="$PROJECT_DIR$/http-zipkin-server-mysql/src/main/java/com/forezp/sleuth/SleuthZipkinApplication.java" />
+        <option value="$PROJECT_DIR$/boot-admin-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/boot-admin-eureka-server/src/main/java/com/forezp/bootadmineurekaserver/BootadmineurekaserverApplication.java" />
+        <option value="$PROJECT_DIR$/boot-admin-server/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/boot-admin-server/src/main/java/com/example/bootadminserver/BootAdminServerApplication.java" />
+        <option value="$PROJECT_DIR$/boot-admin-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-admin-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-admin-eureka-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/boot-admin-eureka-client/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/boot-admin-eureka-client/src/main/java/com/example/bootadmineurekaclient/BootAdminEurekaClientApplication.java" />
+        <option value="$PROJECT_DIR$/boot-admin-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/boot-admin-server/pom.xml" />
       </list>
     </option>
   </component>
@@ -358,11 +294,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zipkin-server-rabbitmq-elastic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="boot-admin-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zipkin-server-rabbitmq-elastic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="boot-admin-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -370,8 +306,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="762" />
-    <option name="y" value="44" />
+    <option name="x" value="624" />
+    <option name="y" value="162" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -401,7 +337,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -413,25 +348,25 @@
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="zipkin-server-rabbitmq-elastic" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-admin-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="zipkin-server-rabbitmq-elastic" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-admin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="zipkin-server-rabbitmq-elastic" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-admin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="zipkin-server-rabbitmq-elastic" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-admin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -439,7 +374,16 @@
             <path>
               <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="zipkin-server-rabbitmq-elastic" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-admin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootadminserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-admin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -448,6 +392,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -467,11 +412,11 @@
     <property name="SearchEverywhereHistoryKey" value="application.yml&#9;FILE&#9;file://E:/Practice/Spring-Cloud/microservices/eureka/eureka-feign-client/src/main/resources/application.yml&#10;FeignRIbb&#9;FILE&#9;jar://C:/Users/j/.m2/repository/org/springframework/cloud/spring-cloud-netflix-core/1.3.1.RELEASE/spring-cloud-netflix-core-1.3.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/ribbon/FeignRibbonClientAutoConfiguration.java&#10;FeignRibbonClientAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.feign.ribbon.FeignRibbonClientAutoConfiguration&#10;PingTask&#9;PSI&#9;JAVA://com.netflix.loadbalancer.BaseLoadBalancer.PingTask&#10;Pinger&#9;PSI&#9;JAVA://com.netflix.loadbalancer.BaseLoadBalancer.Pinger" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552829516017" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zipkin-server-rabbitmq-elastic/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554219273665" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-admin-eureka-server/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29714286" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.YAML" />
@@ -524,20 +469,20 @@
     </option>
     <option name="contentProportion" value="0.2843895" />
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceZipkinRabbitmqApplication">
+  <component name="RunManager" selected="Application.BootAdminServerApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SleuthZipkinApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.forezp.sleuth.SleuthZipkinApplication" />
-      <module name="http-zipkin-server-mysql" />
+    <configuration name="BootAdminServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.bootadminserver.BootAdminServerApplication" />
+      <module name="boot-admin-server" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.forezp.sleuth.*" />
+          <option name="PATTERN" value="com.example.bootadminserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -610,6 +555,27 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
+    <configuration name="BootAdminEurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-admin-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bootadmineurekaclient.BootAdminEurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootAdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-admin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bootadminserver.BootAdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootadmineurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-admin-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.bootadmineurekaserver.BootadmineurekaserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CloudZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.cloudzuul.CloudZuulApplication" />
@@ -625,14 +591,14 @@
       </method>
     </configuration>
     <configuration name="ConfigClientGitRemoteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="config-client-git-remote" />
+      <module name="config-client-github" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.configclientgitremote.ConfigClientGitRemoteApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ConfigClientGithubApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="config-client-git-remote" />
+      <module name="config-client-github" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.configclientgithub.ConfigClientGithubApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -878,19 +844,22 @@
       <item itemvalue="Spring Boot.ZipkinClientRabbitmqApplication" />
       <item itemvalue="Spring Boot.ZipkinServerRabbitmqElasticApplication" />
       <item itemvalue="Spring Boot.SleuthZipkinApplication" />
+      <item itemvalue="Spring Boot.BootadmineurekaserverApplication" />
+      <item itemvalue="Spring Boot.BootAdminEurekaClientApplication" />
       <item itemvalue="Application.UserServiceApplication" />
       <item itemvalue="Spring Boot.UserServiceZipkinRabbitmqApplication" />
-      <item itemvalue="Application.SleuthZipkinApplication" />
       <item itemvalue="Spring Boot.GatewayServiceApplication" />
       <item itemvalue="Application.ZipkinServerRabbitmqMySQLApplication" />
+      <item itemvalue="Spring Boot.BootAdminServerApplication" />
+      <item itemvalue="Application.BootAdminServerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BootAdminServerApplication" />
         <item itemvalue="Spring Boot.UserServiceZipkinRabbitmqApplication" />
         <item itemvalue="Application.ZipkinServerRabbitmqMySQLApplication" />
         <item itemvalue="Application.UserServiceApplication" />
         <item itemvalue="Spring Boot.GatewayServiceApplication" />
-        <item itemvalue="Application.SleuthZipkinApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -920,7 +889,9 @@
       <workItem from="1552352259563" duration="7104000" />
       <workItem from="1552454695356" duration="8368000" />
       <workItem from="1552811801649" duration="4974000" />
-      <workItem from="1552825793898" duration="3785000" />
+      <workItem from="1552825793898" duration="4087000" />
+      <workItem from="1554211062495" duration="1853000" />
+      <workItem from="1554213309401" duration="5811000" />
     </task>
     <task id="LOCAL-00001" summary="Ribbon Client">
       <created>1550222653809</created>
@@ -978,11 +949,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552492422777</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Sleuth &amp; Zipkin &amp; RabbitMQ &amp; MySQL">
+      <created>1552832382743</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552832382743</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171332000" />
+    <option name="totallyTimeSpent" value="179298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -995,8 +973,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5694051" visible="true" weight="0.24886535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5694051" visible="true" weight="0.33888048" />
       <window_info id="Structure" order="1" sideWeight="0.4305949" side_tool="true" weight="0.2193646" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1004,18 +983,18 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.21346469" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.19211823" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.709531" weight="0.36617404" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.5305785" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.709531" visible="true" weight="0.18883416" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.5303777" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32838285" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.290469" side_tool="true" weight="0.552459" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49394855" weight="0.32840723" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49394855" weight="0.5090312" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.2824302" />
@@ -1024,14 +1003,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.2624811" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.25189108" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5694051" visible="true" weight="0.24130106" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5694051" visible="true" weight="0.33888048" />
       <window_info id="Structure" order="1" sideWeight="0.4305949" side_tool="true" weight="0.2193646" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1039,10 +1018,10 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.48932678" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.38423645" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.709531" weight="0.36617404" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.709531" visible="true" weight="0.454844" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.5305785" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1050,7 +1029,7 @@
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3289256" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.290469" side_tool="true" weight="0.552459" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49394855" weight="0.32840723" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49394855" weight="0.5090312" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.2824302" />
@@ -1059,7 +1038,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.2624811" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.25189108" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1079,7 +1058,8 @@
     <MESSAGE value="Sleuth" />
     <MESSAGE value="Sleuth &amp; Zipkin &amp; RabbitMQ" />
     <MESSAGE value="Sleuth &amp; Zipkin &amp; RabbitMQ &amp; Elastic &amp; Kibana" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sleuth &amp; Zipkin &amp; RabbitMQ &amp; Elastic &amp; Kibana" />
+    <MESSAGE value="Sleuth &amp; Zipkin &amp; RabbitMQ &amp; MySQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sleuth &amp; Zipkin &amp; RabbitMQ &amp; MySQL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1159,128 +1139,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/IZuulFilter.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulFilter.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="660" selection-start-line="660" selection-end-line="660" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE-sources.jar!/org/springframework/http/client/AbstractClientHttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="740" column="6" selection-start-line="740" selection-start-column="6" selection-end-line="740" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.19.RELEASE/spring-boot-autoconfigure-1.5.19.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/eureka-config-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-config-server/src/main/java/com/forezp/eurekaconfigserver/EurekaConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-config-client/src/main/java/com/forezp/eurekaconfigclient/EurekaConfigClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="20" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-config-client-bus-rabbitmq/src/main/java/com/forezp/eurekaconfigclientbusrabbitmq/EurekaConfigClientBusRabbitmqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="11" column="19" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-config-client-bus-rabbitmq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="46" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-config-client-bus-rabbitmq/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sleuth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sleuth/src/main/java/com/forezp/sleuth/SleuthApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sleuth/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1199">
-          <caret line="60" column="10" lean-forward="true" selection-end-line="60" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1313,9 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="9" column="10" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1337,9 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1434,33 +1286,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq-mysql/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="11" column="39" lean-forward="true" selection-end-line="53" />
+          <caret line="11" column="39" selection-end-line="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq-mysql/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="9" column="9" lean-forward="true" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq-mysql/src/main/java/com/forezp/zipkinserverrabbitmq/ZipkinServerRabbitmqMySQLApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="9" column="9" selection-end-line="23" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1473,15 +1312,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq-elastic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="44" column="19" lean-forward="true" selection-end-line="54" />
+        <state relative-caret-position="880">
+          <caret line="44" column="19" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-eureka-server/src/main/java/com/forezp/configeurekaserver/ConfigEurekaServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/zipkin-client-rabbitmq/src/main/java/com/forezp/zipkinclientrabbitmq/ZipkinClientRabbitmqApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="160">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -1492,28 +1331,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin-client-rabbitmq/src/main/java/com/forezp/zipkinclientrabbitmq/ZipkinClientRabbitmqApplication.java">
+    <entry file="file://$PROJECT_DIR$/config-eureka-server/src/main/java/com/forezp/configeurekaserver/ConfigEurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-service-zipkin-rabbitmq/src/main/java/com/forezp/userservicezipkinrabbitmq/UserServiceZipkinRabbitmqApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq-mysql/src/main/java/com/forezp/zipkinserverrabbitmq/ZipkinServerRabbitmqMySQLApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zipkin-server-rabbitmq-elastic/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="50" column="21" selection-start-line="28" selection-start-column="8" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.19.RELEASE/spring-boot-1.5.19.RELEASE-sources.jar!/org/springframework/boot/admin/SpringApplicationAdminMXBeanRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-admin-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-admin-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-admin-eureka-client/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-admin-eureka-server/src/main/java/com/forezp/bootadmineurekaserver/BootadmineurekaserverApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-admin-server/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-admin-eureka-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="23" column="17" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-admin-eureka-client/src/main/java/com/example/bootadmineurekaclient/BootAdminEurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-admin-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-admin-eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-admin-server/src/main/java/com/example/bootadminserver/BootAdminServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-admin-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="24" column="64" lean-forward="true" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -1570,12 +1551,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>http-zipkin-server-mysql</last-edited>
+          <last-edited>boot-admin-server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.29714286" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1599,7 +1579,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3257143" />
+                <option value="0.29714286" />
               </list>
             </option>
           </splitter-proportions>

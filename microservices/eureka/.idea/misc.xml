@@ -46,10 +46,14 @@
         <option value="$PROJECT_DIR$/http-zipkin-server-mysql/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-server-rabbitmq-mysql/pom.xml" />
         <option value="$PROJECT_DIR$/zipkin-server-rabbitmq-elastic/pom.xml" />
+        <option value="$PROJECT_DIR$/bootadmineurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-admin-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-admin-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-admin-server/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
